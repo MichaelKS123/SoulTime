@@ -441,7 +441,7 @@ MONGODB_URI=mongodb://localhost:27017/soultime
 5. Get connection string
 6. Update `.env`:
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/soultime?retryWrites=true&w=majority
+//MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/soultime?retryWrites=true&w=majority//
 ```
 
 ### Backend Deployment - Heroku
@@ -925,3 +925,4 @@ git clone https://github.com/yourusername/soultime.git
 **Last Updated**: October 31, 2025  
 
 **Status**: Production Ready ✅
+
